@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "HelpMeOut",
+  "version": "1.0",
+  "description": "Record your screen or tab with video and audio.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "/popup/popup.html",
+    "default_icon": "/images/icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
